@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Job Prep Plan — 14 дней</title>
+  <meta name="description" content="Интерактивный план подготовки к работе: Product Data, E-commerce и Reporting." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-icon">▣</div><div><strong>Job Prep Plan</strong><small>London · Product Data /<br>E-commerce · Reporting</small></div></div>
+    <nav id="nav">
+      <button class="nav active" data-page="home">⌂ <span>Главная</span></button>
+      <button class="nav" data-page="analysis">◎ <span>Анализ и направления</span></button>
+      <button class="nav" data-page="week1">▦ <span>Неделя 1</span></button>
+      <button class="nav" data-page="week2">▦ <span>Неделя 2</span></button>
+      <button class="nav" data-page="skills">▱ <span>Навыки и материалы</span></button>
+      <button class="nav" data-page="interview">☏ <span>Интервью</span></button>
+      <button class="nav" data-page="tests">⌘ <span>Тестовые задания</span></button>
+      <button class="nav" data-page="cv">▤ <span>CV и LinkedIn</span></button>
+      <button class="nav" data-page="applications">⌕ <span>Отклики и вакансии</span></button>
+      <button class="nav" data-page="progress">✓ <span>Мой прогресс</span></button>
+    </nav>
+    <div class="side-note">Твой учебный кабинет<br><small>Данные сохраняются в браузере</small></div>
+  </aside>
+
+  <main>
+    <header class="topbar">
+      <div><h1>План подготовки к работе в Лондоне</h1><p>2 недели интенсивной подготовки · Product Data / E-commerce / Reporting Assistant</p></div>
+      <div class="progress-card"><b>Общий прогресс</b><span id="progressText">0%</span><div class="bar"><i id="progressBar"></i></div><small id="progressCount">0 из 41 задач</small></div>
+    </header>
+
+    <div class="tabs">
+      <button data-page="home" class="tab active">⌂ План</button>
+      <button data-page="week1" class="tab">▦ Неделя 1</button>
+      <button data-page="week2" class="tab">▦ Неделя 2</button>
+      <button data-page="progress" class="tab">🏆 Результаты</button>
+    </div>
+
+    <section id="content"></section>
+    <footer>Job Prep Plan · Работает локально и на GitHub Pages</footer>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
